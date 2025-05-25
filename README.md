@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://www.frontendmentor.io/solutions/article-preview-component-master-7LtHsOTMHz
+- Live Site URL: https://manjirigole.github.io/article-preview-component-master/
 
 ## My process
 
