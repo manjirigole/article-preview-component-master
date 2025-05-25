@@ -1,0 +1,128 @@
+body {
+  background-color: hsl(210, 46%, 95%);
+  font-family: "Manrope", sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  overflow: hidden;
+}
+.item1 {
+  width: 400px;
+  height: 400px;
+}
+.item1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.item2 {
+  background-color: white;
+  height: 400px;
+  width: 600px;
+  padding: 0;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.item2 h2 {
+  padding-top: 20px;
+  padding-left: 50px;
+  color: hsl(217, 19%, 35%);
+}
+.item2 p {
+  padding-left: 50px;
+  color: hsl(217, 19%, 35%);
+  font-weight: 500;
+}
+.michelle {
+  border-radius: 50%;
+  height: 50px;
+  margin-left: 50px;
+}
+.user ul {
+  list-style: none;
+  line-height: 30px;
+  padding-left: 20px;
+  padding-right: 100px;
+}
+.list-a {
+  color: hsl(217, 19%, 35%);
+  font-weight: 800;
+}
+.list-b {
+  color: hsl(212, 23%, 69%);
+}
+.share-div {
+  position: relative;
+}
+.user {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  float: left;
+  justify-content: center;
+  align-items: center;
+}
+.share-div {
+  position: relative;
+  margin-left: auto; /* Pushes to the right */
+}
+
+.tooltip {
+  display: none;
+}
+.tooltip.active {
+  position: absolute;
+  bottom: 50px; /* Places it above the share button */
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+}
+.share-drawer {
+  background-color: hsl(217, 19%, 35%);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 5px;
+  width: 180px;
+}
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid hsl(217, 19%, 35%);
+}
+
+.share-drawer span {
+  color: hsl(210, 46%, 95%);
+  font-size: 12px;
+  letter-spacing: 4px;
+}
+
+.share {
+  background-color: hsl(210, 46%, 95%);
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.share:hover {
+  background-color: hsl(217, 19%, 35%);
+}
